@@ -13,11 +13,10 @@ import java.io.*;
 import java.util.*;
 
 public class NombresOpposes {
-
     public static void main(String[] args) {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\PC\\Documents\\NetBeansProjects\\TP10\\inputA.txt"));
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\PC\\Documents\\NetBeansProjects\\TP10\\outputA.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader("inputA.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("outputA.txt"));
 
             int N = Integer.parseInt(reader.readLine().trim());
             Set<Integer> set = new HashSet<>();
